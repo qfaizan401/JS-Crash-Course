@@ -1,0 +1,1 @@
+document.write(`Yah! I can change HTML from JS`)
