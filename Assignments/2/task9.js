@@ -1,12 +1,6 @@
-isVowel = (alpha) => {
-    let setVowel = ['a', 'e', 'i', 'o', 'u']
-    if (alpha in setVowel) {
-        return document.write(`True`)
-    } else {
-        return document.write(`False`)
-    }
+let userInput = prompt('Enter a character')
+if ((userInput == 'a') || (userInput == 'e') || (userInput == 'i') || (userInput == 'o') || (userInput == 'u')) {
+    document.write('True')
+} else{
+    document.write('False')
 }
-
-let userInput = prompt(`Enter an alphabet`)
-console.log(userInput)
-isVowel('u')
